@@ -1,0 +1,232 @@
+@media (max-width: 1200px){
+    .about__info{
+        padding: 40px 15px 15px 40px;
+    }
+    .clients__item{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .clients__item-info-text::after{
+        right: -11px;
+    }
+    .clietns__item-img{
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 1129px){
+    .quote__form-btn{
+        margin: 10px;
+    }
+    .newsletter__img img{
+        width: 100%;
+    }
+    .newsletter__logo{
+        display: none;
+    }
+}
+@media (max-width: 1079px){
+    .services__items{
+        justify-content: center;
+    }
+    .how__items{
+        flex-wrap: wrap;
+    }
+    .how__item{
+        width: 44%;
+    }
+    .how__item:nth-child(3), .how__item:nth-child(4){
+        margin-top: 100px;
+    }
+    .how__item:nth-child(2):after{
+        display: none;
+    }
+    .newsletter .quote__form{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 1010px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about__image{
+        width: 100%;
+    }
+    .about__info{
+        width: 100%;
+    }
+    .clients__inner{
+        width: 100%;
+    }
+}
+@media (max-width: 900px){
+    .menu__list{
+        display: block;
+        position: absolute;
+        top: 62px;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        box-shadow: #ccc;
+        box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+        text-align: center;
+        z-index: 99;
+        top: -100%;
+        transition: all .4s ease;
+    }
+    .menu__list li{
+        margin: 30px 0;
+    }
+    .header__burger{
+        position: relative;
+        width: 36px;
+        height: 18px;
+        display: block;
+        margin-left: 10px;
+    }
+    .header__burger span, .header__burger::after, .header__burger::before{
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background: #1ca8dd;
+        margin: 0 auto;
+    }
+    .header__burger span{
+        transition: .5s;
+    }
+    .header__burger::after, .header__burger::before{
+        content: '';
+    }
+    .header__burger::after{
+        transition: .5s;
+        bottom: 7px;
+    }
+    .header__burger::before{
+        transition: .5s;
+        top:15px;
+    }
+    .header__inner{
+        min-height: 62px;
+    }
+    .clients{
+        padding: 50px 0;
+    }
+}
+@media (max-width: 829px){
+    .price__item-info{
+        font-size: 12px;
+    }
+    .price__item-title{
+        font-size: 20px;
+    }
+}
+@media (max-width: 747px){
+    .price__items{
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .price__item{
+        margin-bottom: 10px;
+        width: 280px;
+    }
+    .price{
+        padding: 50px 0;
+    }
+    .how{
+        padding: 70px 0;
+    }
+    .newsletter{
+        padding: 50px 0 130px;
+    }
+
+    .clients__items{
+        flex-wrap: wrap;
+    }
+    .clients__item{
+        width: 80%;
+        padding: 30px;
+    }
+    .newsletter .mail{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 650px){
+    .quote_slider-item img{
+        width: 448px;
+    }
+}
+@media (max-width: 615px){
+    .quote__form input{
+        margin: 2px;
+    }
+    .quote{
+        padding: 60px 0 20px;
+    }
+    .services{
+        padding: 110px 0 0px;
+    }
+}
+@media (max-width: 590px){
+    .quote__title{
+        line-height: 40px;
+    }
+    .how__items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .how__item{
+        margin: 40px 0;
+        width: 80%;
+    }
+    .how__item:nth-child(odd):after{
+        display: none;
+    }
+    .how__item-img{
+        margin-bottom: 40px;
+    }
+    .how__item:nth-child(3),.how__item:nth-child(4){
+        margin: 40px 0;
+    }
+}
+@media (max-width: 480px){
+    .quote_slider-item img{
+        width: 320px;
+    }
+    .clients__item{
+        width: 100%;
+    }
+    .newsletter .mail{
+        min-width: 281px;
+    }
+    .newsletter__circle{
+        width: 170px;
+        height: 170px;
+        padding: 0px 34px;
+    }
+    .newsletter__circle-title{
+        font-size: 10px;
+    }
+    .newsletter__circle-info{
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .newsletter__circle-mail{
+        font-size: 10px;
+    }
+}
+@media (max-width: 355px){
+    .price__info-title{
+        line-height: 30px;
+    }
+}
+@media (max-width: 352px){
+    .quote_slider-item img{
+        width: 280px;
+    }
+}
